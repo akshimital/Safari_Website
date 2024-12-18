@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+  body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #161813;
+    overflow-x: hidden;
+  }
+
+  ::placeholder {
+    color: #303030;
+    opacity: 1;
+  }
+
+  .navigation{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+
+
+  .hero img{
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-position:center;
+    background-size:cover;
+    position: absolute;
+  }
+  .form-box {
+   
+    border: 1px solid rgb(164, 157, 157);
+    top: 50px;
+    width: 380px;
+    height: 403px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background-color: rgba(33, 33, 33, 0.448);
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  .button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+  }
+  
+  .btn {
+    top: 0;
+    left: 0px;
+    position: absolute;
+    width: 80px;
+    height: 110%;
+    padding: 5px;
+    border-bottom: 4px solid rgb(147, 144, 144);
+    transition: ease-in-out 0.5s;
+  }
+  .toggle-btn {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: larger;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  .input_form{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .input-group{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .input-field{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .submit-btn{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 200;
+    /* font-size: 20px; */
+    font-style: normal;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    position:absolute;
+    top: 330px;
+    left: 75px;
+  }
+  .social-icons img {
+    border-radius: 4px;
+    height: auto;
+    width: 50px;
+    
+    margin: 0 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1, 1);
+  }
+  
+  .input-group {
+    color: white;
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+  }
+  .input-field {
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #3a3939;
+    outline: none;
+    background: transparent;
+    box-shadow: 0 3px 2px -2px white;
+  }
+  .input-field::placeholder {
+    color: white;
+  }
+  .submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(176, 167, 167);
+  }
+  
+  .submit-btn:hover {
+    transform: scale(1, 1);
+  }
+  .check-box {
+    margin: 30px 10px 30px 0;
+  }
+  span {
+    color: white;
+    font-size: 12px;
+    bottom: 64px;
+    position: absolute;
+  }
+  #login {
+    left: 50px;
+  }
+  #signup {
+    left: 450px;
+  }
+  

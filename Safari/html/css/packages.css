@@ -1,0 +1,152 @@
+body {
+    position: relative;
+    background-color: black;
+    color: rgb(2, 2, 2);
+}
+/* .package-heading {
+  background-color: #151515;
+  /* background-image: url("//img/pexels-wendelinjacober-1460222.jpg"); */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  padding: 20px; 
+}
+.package-heading img{
+    height: 400px;
+    width: 1100px;
+    
+}
+.package-heading h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.package-heading p{
+    color: white;
+    
+} */
+
+.package-heading {
+    position: relative; /* Enable relative positioning for the container */
+  }
+  
+  .package-heading img {
+    width: 100%; /* Set image width to 100% of container */
+    height: 350px; /* Maintain image aspect ratio */
+    position: absolute; /* Make image positioned within container */
+    z-index: -1; /* Place image behind the text elements */
+    margin-bottom: 20px;
+}
+  
+  .package-heading h1{
+    position: relative; /* Make text elements positioned within container */
+    z-index: 1; /* Place text elements on top of the image */
+    color: white; /* Optional: Set text color for visibility on image */
+    padding-top: 190px;
+    font-size:40px;
+    padding-left: 40px;
+    font-weight: bolder;
+  }
+  .package-heading p {
+    position: relative; /* Make text elements positioned within container */
+    z-index: 1; /* Place text elements on top of the image */
+    color: white;
+    padding-left: 40px;
+    font-weight: bolder;
+  }
+
+  .images{
+    margin-top: 50px;
+  }
+.package3 {
+    display: grid;
+    padding: 10px;
+    gap: 0px;
+}
+
+.package-title {
+    text-align: center;
+}
+
+
+.package-title h2 {
+    font-size: 30px;
+    font-weight: 650;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.pack3-content {
+    background-color: #fdf5f5;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #3b3737;
+    background: black;
+    border:2px solid #fdf5f5;
+    background: linear-gradient(rgb(0, 0, 0) 4%, rgb(46, 45, 45) 50%);
+    padding: 25px;
+    padding-right: 50px;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+
+.pack4-content {
+    /* background-color: #fdf5f5; */
+    border-radius: 15px;
+    width:99%;
+    box-shadow: 10px 10px 15px #3b3737;
+    background: black;
+    border:2px solid #fdf5f5;
+    background: linear-gradient(rgb(0, 0, 0) 4%, rgb(46, 45, 45) 50%);
+    display: flex;
+    height: 300px;
+    margin-left: 0px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+
+.pack4-content h4{
+    text-align: center;
+}
+.pack4-content .text-block1 h3{
+    padding-top: 55px;
+}
+.text-block1 {
+    color: #fdf5f5;
+    position: static;
+    padding-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text-block1 h3{
+    margin-left: 3px;
+}
+.box .image-pac h4{
+    color: #fff;
+    font-size: 13px;
+}
+.image-pac  {
+    margin-top: 50px;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    cursor: pointer;
+}
+
+.image-pac img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.image-pac h3 {
+    color: rgb(254, 254, 254);
+    position: static;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 10px;
+    right: 25px;
+}

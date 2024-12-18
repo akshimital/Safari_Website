@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .contact{
+    background-image: url(https://i.etsystatic.com/41045176/r/il/d884d6/4705115909/il_fullxfull.4705115909_hw3d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.contact {
+    padding: 150px 20px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 50px;
+    text-decoration: wavy;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-form form .submit-btn {
+    background-color: #313131;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    width: 220px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.contact-form form .submit-btn:hover {
+    border: 2px solid green;
+    color: #313131;
+    background-color: #fff;
+}
+

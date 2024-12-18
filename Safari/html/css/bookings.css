@@ -1,0 +1,213 @@
+/* Registration */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.618;
+    font-family: sans-serif;
+}
+
+:root {
+    --dark-body: #4d4c5a;
+    --dark-main: #141529;
+    --dark-second: #79788c;
+    --dark-hover: #323048;
+    --dark-text: #f8fbff;
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #edf0f5;
+    --light-text: #151426;
+    --blue: #007497;
+    --white: #fff;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --font-family: cursive;
+}
+
+.light {
+    --bg-body: var(--light-body);
+    --bg-main: var(--light-main);
+    --bg-second: var(--light-second);
+    --color-hover: var(--light-hover);
+    --color-txt: var(--light-text);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+nav{
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booking {
+    text-decoration: none;
+    /* font-size: 10px; */
+    color: rgb(255, 255, 255);
+    /* padding: 14px 17px; */
+    /* margin-top: 25vh; */
+    text-align: center;
+    vertical-align: center;
+  }
+  .booking video{
+    height: 1000px;
+  }
+  .booking h1 {
+    /* font-size: 10vh; */
+    text-shadow: 2px black;
+    transition: ease 0.3s;
+    margin-bottom: 0px;
+  }
+  
+  .booking h1:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+  }
+
+h1,
+p {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    box-shadow: 5px 5px 10px #3b3737;
+    color: #f8fbff;
+    font-weight: bolder;
+    background-color:rgba(0, 0, 0,0.6);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+.placing{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding-right: 50px;
+    /* font-weight: bolder; */
+}
+
+.placing label{
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-right: 10px;
+    border: none;
+    /* padding: 1.2rem 0; */
+}
+
+label {
+    font-size: 16px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+/*
+#accomodation{
+    position: static;
+} */
+
+input,textarea
+select {
+    padding: 10px;
+    margin: 7px 0;
+    width: 100%;
+    min-height: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* textarea{
+    width:90%
+} */
+
+select,
+.room {
+    width: 7rem;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, .1) 0 0 8px;
+}
+
+select {
+    color: black;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+input,
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.submit-btn {
+    display: block;
+    padding: 10px;
+    width: 10%;
+    margin: 1em auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 27px;
+    text-decoration: solid;
+    background-color: white;
+    min-width: 200px;
+    transition: ease 0.20s;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    color: darkgreen;
+    border: 3px solid darkgreen;
+}
+
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
